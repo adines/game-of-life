@@ -30,7 +30,7 @@ public enum Cell {
     }
 
 @Override
-public boolean equals(Cell c1,Cell c2){
+public boolean equals(Cell c1){
 return true;
 }
 }
