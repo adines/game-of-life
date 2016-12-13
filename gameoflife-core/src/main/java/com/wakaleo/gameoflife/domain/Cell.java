@@ -29,7 +29,7 @@ public enum Cell {
         return symbol;
     }
 
-@override
+@Override
 public boolean equals(Cell c1,Cell c2){
 return true;
 }
