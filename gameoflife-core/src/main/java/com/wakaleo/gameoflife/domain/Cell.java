@@ -29,7 +29,8 @@ public enum Cell {
         return symbol;
     }
 
-public boolean compare(Cell c1,Cell c2){
+@override
+public boolean equals(Cell c1,Cell c2){
 return true;
 }
 }
