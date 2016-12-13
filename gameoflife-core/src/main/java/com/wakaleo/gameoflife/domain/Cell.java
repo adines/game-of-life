@@ -11,7 +11,7 @@ public enum Cell {
 
     @Override
     public String toString() {
-        return symbol;
+        return "a";
     }
 
     static Cell fromSymbol(final String symbol) {
@@ -28,9 +28,4 @@ public enum Cell {
     public String getSymbol() {
         return symbol;
     }
-
-@Override
-public boolean equals(Cell c1){
-return true;
-}
 }
