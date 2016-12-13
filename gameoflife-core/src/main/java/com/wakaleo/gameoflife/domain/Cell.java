@@ -28,4 +28,8 @@ public enum Cell {
     public String getSymbol() {
         return symbol;
     }
+
+public boolean compare(Cell c1,Cell c2){
+return true;
+}
 }
